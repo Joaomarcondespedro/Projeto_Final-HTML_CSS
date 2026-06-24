@@ -1,0 +1,318 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f8f7f3, #ede4d0);
+  color: #1a1a1a;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 112px;
+  background: linear-gradient(90deg, #1a472a, #2d5f3f);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  z-index:999;
+}
+.logo {
+  height: 80px;
+}
+.nav-links {
+  gap: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+.nav-links a:hover {
+  color: #d4af37;
+}
+.hero {
+  margin-top: 112px;
+  padding: 80px 40px;
+  background: linear-gradient(135deg, #1a472a, #2d5f3f);
+  color: #fff;
+  text-align: center;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+.hero p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.cta-button {
+  display: inline-block;
+  padding: 12px 35px;
+  background: linear-gradient(135deg, #d4af37, #e8c547);
+  color: #1a472a;
+  text-decoration: none;
+  font-weight: 700;
+  border-radius: 50px;
+  border: none;
+  cursor: pointer;
+}
+.featured-section {
+  padding: 60px 40px;
+  background: linear-gradient(180deg, #f8f7f3, #ede4d0);
+}
+.featured-section h2 {
+  font-size: 2rem;
+  color: #1a472a;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.featured-card {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 30px;
+}
+.featured-image {
+  height: 280px;
+  background:
+    url("zeldas_lullaby.jpg") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+.featured-info h3 {
+  font-size: 1.5rem;
+  color: #1a472a;
+  margin-bottom: 10px;
+}
+.featured-info p {
+  color: #666;
+  margin-bottom: 15px;
+}
+.tracks-section {
+  padding: 80px 40px;
+  background: linear-gradient(180deg, #ede4d0, #f8f7f3);
+}
+.tracks-section h2 {
+  font-size: 2rem;
+  color: #1a472a;
+  margin-bottom: 40px;
+  text-align: center;
+}
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card {
+  background: linear-gradient(135deg, #fff9f0, #fff5e6);
+  border-radius: 10px;
+  border: 1px solid #e0d5c7;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.2s ease;
+}
+.card:hover {
+  transform: translateY(-4px);
+}
+.card-image {
+  height: 150px;
+  background-size: cover;
+  background-position: center;
+}
+#title-theme .card-image {
+  background:
+    url("titletheme.png") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+#zeldas-lullaby .card-image {
+  background:
+    url("zeldas_lullaby.jpg") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+#gerudo-valley .card-image {
+  background:
+    url("gerudo_valley.jpg") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+#lost-woods .card-image {
+  background:
+    url("lost_woods.jpg") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+#hyrule-field .card-image {
+  background:
+    url("Hyrule_Field.jpg") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+.card-content {
+  padding: 12px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.card h3 {
+  font-size: 1rem;
+  color: #1a472a;
+  margin-bottom: 5px;
+}
+.card p {
+  color: #666;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+  flex: 1;
+}
+.audio-controls audio {
+  width: 100%;
+  height: 25px;
+  border-radius: 4px;
+  background: linear-gradient(135deg, #f5f0e8, #ede7df);
+}
+.cta-section {
+  padding: 70px 40px;
+  background: linear-gradient(135deg, #1a472a, #2d5f3f);
+  color: #fff;
+  text-align: center;
+}
+.cta-section h2 {
+  font-size: 1.9rem;
+  margin-bottom: 12px;
+}
+.cta-section p {
+  font-size: 0.95rem;
+  margin-bottom: 30px;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 22px;
+  border-radius: 50px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.spotify-btn {
+  background: #1db954;
+}
+.spotify-btn:hover {
+  background: #1ed760;
+}
+.youtube-btn {
+  background: #ff0000;
+}
+.youtube-btn:hover {
+  background: #cc0000;
+}
+footer {
+  background: linear-gradient(90deg, #1a472a, #2d5f3f);
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #d4af37;
+  color: #fff;
+}
+.footer-content p {
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+.footer-links {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+.footer-links a {
+  color: #d4af37;
+  text-decoration: none;
+  font-weight: 600;
+}
+figure figcaption {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+}
+figure {
+  position: relative;
+}
+@media (max-width: 768px) {
+  header {
+    padding: 8px 16px;
+    flex-direction: row;     
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    gap: 0;
+  }
+
+  .logo {
+    height: 50px;  
+  }
+
+  .nav-links {
+    flex-direction: row;    
+    gap: 12px;
+  }
+
+  .nav-links a {
+    font-size: 0.8rem;         
+  }
+
+  .hero {
+    padding: 50px 20px;
+    margin-top: 70px;      
+  }
+
+  .featured-card {
+    grid-template-columns: 1fr;
+    gap: 15px;
+    padding: 15px;
+  }
+  .featured-image {
+    height: 200px;
+  }
+  .tracks-section,
+  .featured-section,
+  .cta-section {
+    padding: 40px 20px;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 15px;
+  }
+  .button-group {
+    flex-direction: column;
+  }
+  .button {
+    width: 100%;
+  }
+}
