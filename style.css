@@ -165,6 +165,21 @@ header {
     url("Hyrule_Field.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
+#Temple-of-Time .card-image {
+  background:
+    url("temple_of_time.png") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+#song-of-storms .card-image {
+  background:
+    url("song-of-storms.jpg") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
+#epona-song .card-image {
+  background:
+    url("epona's_song.png") center/cover,
+    linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
+}
 .card-content {
   padding: 12px;
   flex: 1;
