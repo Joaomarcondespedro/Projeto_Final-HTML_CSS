@@ -94,7 +94,7 @@ header {
 .featured-image {
   height: 280px;
   background:
-    url("zeldas_lullaby.jpg") center/cover,
+    url("images/zeldas_lullaby.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 .featured-info h3 {
@@ -142,42 +142,42 @@ header {
 }
 #title-theme .card-image {
   background:
-    url("titletheme.png") center/cover,
+    url("images/titletheme.png") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #zeldas-lullaby .card-image {
   background:
-    url("zeldas_lullaby.jpg") center/cover,
+    url("images/zeldas_lullaby.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #gerudo-valley .card-image {
   background:
-    url("gerudo_valley.jpg") center/cover,
+    url("images/gerudo_valley.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #lost-woods .card-image {
   background:
-    url("lost_woods.jpg") center/cover,
+    url("images/lost_woods.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #hyrule-field .card-image {
   background:
-    url("Hyrule_Field.jpg") center/cover,
+    url("images/Hyrule_Field.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #Temple-of-Time .card-image {
   background:
-    url("temple_of_time.png") center/cover,
+    url("images/temple_of_time.png") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #song-of-storms .card-image {
   background:
-    url("song-of-storms.jpg") center/cover,
+    url("images/song-of-storms.jpg") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 #epona-song .card-image {
   background:
-    url("epona's_song.png") center/cover,
+    url("images/epona's_song.png") center/cover,
     linear-gradient(135deg, rgba(26, 71, 42, 0.2), rgba(212, 175, 55, 0.2));
 }
 .card-content {
